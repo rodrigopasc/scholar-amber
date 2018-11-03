@@ -29,6 +29,7 @@ Amber::Server.configure do
   end
 
   routes :web do
+    resources "/inventories", InventoryController
     get "/profile", UserController, :show
     get "/profile/edit", UserController, :edit
     patch "/profile", UserController, :update

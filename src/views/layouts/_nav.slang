@@ -17,3 +17,5 @@ a class="nav-item #{active}" href="/posts" Posts
   - active = context.request.path == "/signin" ? "active" : ""
   a class="nav-item nav-item-auth nav-item-auth-signin #{active}" href="/signin"
     | Sign In
+- active = context.request.path == "/inventories" ? "active" : ""
+a class="nav-item #{active}" href="/inventories" Inventories
