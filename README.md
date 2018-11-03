@@ -39,7 +39,7 @@ crystal spec
 
 ## Contributing
 
-1. Fork it ( https://github.com/your-github-user/scholar-amber/fork )
+1. Fork it ( https://github.com/rodrigopasc/scholar-amber/fork )
 2. Create your feature branch ( `git checkout -b my-new-feature` )
 3. Commit your changes ( `git commit -am 'Add some feature'` )
 4. Push to the branch ( `git push origin my-new-feature` )
@@ -47,4 +47,4 @@ crystal spec
 
 ## Contributors
 
-- [your-github-user](https://github.com/your-github-user) Rodrigo Paschoaletto - creator, maintainer
+- [rodrigopasc](https://github.com/rodrigopasc) Rodrigo Paschoaletto - creator, maintainer
