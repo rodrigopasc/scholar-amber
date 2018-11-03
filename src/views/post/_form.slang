@@ -7,7 +7,7 @@
   == csrf_tag
   .form-group
     == label(:category)
-    == select_field(name: "category_id", collection: Category.all.map{|category| [category.id, category.id]}, selected: post.category_id, class: "form-control")
+    == select_field(name: "category_id", collection: Category.all.map{|category| [category.id, category.description]}, selected: post.category_id, class: "form-control")
   .form-group
     == text_field(name: "title", value: post.title, placeholder: "Title", class: "form-control")
   .form-group
